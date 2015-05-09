@@ -28,7 +28,7 @@ public class ReadingMenu extends ActionBarActivity {
 
     private String imageName;
 
-    private static final String baseUrlForImage3 = "http://192.168.1.100:8080/Images/";
+    private static final String baseUrlForImage3 = "http://78.62.18.43:80/Images/";
 
 
     @Override

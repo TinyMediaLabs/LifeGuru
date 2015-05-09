@@ -23,14 +23,17 @@
         android:background="#FFFFFF"/>
 
     <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/scrollView2" >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:fillViewport="true">
 
         <ListView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/listView2" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView2"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
     </ScrollView>
 
 </LinearLayout>

@@ -19,7 +19,7 @@ public class ApiMainMenu {
     {
         // URL for getting MainMenu list
 
-        String url = "http://192.168.1.100:8080/getMainMenuList.php";
+        String url = "http://78.62.18.43:80/getMainMenuList.php";
 
         // Get HttpResponse Object from url.
         // Get HttpEntity from Http Response Object

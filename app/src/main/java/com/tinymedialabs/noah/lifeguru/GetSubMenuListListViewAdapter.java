@@ -37,7 +37,7 @@ public class GetSubMenuListListViewAdapter extends BaseAdapter {
 
     }
 
-    public static final String baseUrlForImage2 = "http://192.168.1.100:8080/Images/";
+    public static final String baseUrlForImage2 = "http://78.62.18.43:80/Images/";
 
     @Override
     public int getCount() {

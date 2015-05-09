@@ -30,7 +30,7 @@ public class GetMainMenuListListViewAdapter extends BaseAdapter {
     private JSONArray dataArray;
     private Activity activity;
 
-    private static final String baseUrlForImage = "http://192.168.1.100:8080/Images/";
+    private static final String baseUrlForImage = "http://78.62.18.43:80/Images/";
 
     private static LayoutInflater inflater = null;
 
